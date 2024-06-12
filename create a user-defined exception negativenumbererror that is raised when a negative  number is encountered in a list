@@ -1,0 +1,17 @@
+def NegativeNumberError(number):
+
+ try:
+
+ for number in numbers:
+
+ if number>0:
+
+ print(“ok”)
+
+ except:
+
+ print(“error: negative number encountered”)
+
+number=[2,8,3,7]
+
+num=negativenumbererror(number)
