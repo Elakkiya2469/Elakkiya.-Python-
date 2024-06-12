@@ -1,0 +1,13 @@
+import numpy as np
+
+array=np.array([1, 2, 3, 4, 5])
+
+print(“original array:”,array)
+
+array1=np.append(array,6)
+
+print(“array after adding an item:”,array1)
+
+array2=np.delete(array,np.where(array==3))
+
+print(“array after removing an item:”,array)
