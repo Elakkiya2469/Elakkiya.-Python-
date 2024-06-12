@@ -1,0 +1,13 @@
+with open(‘random.txt’,’a’) as file:
+
+ file.write(“101\n”)
+
+ file.write(“updated succesfully.\n”)
+
+with open(‘random.txt’,’r’) as file:
+
+ up=file.read()
+
+ print(“updated file content:”)
+
+ print(up)
