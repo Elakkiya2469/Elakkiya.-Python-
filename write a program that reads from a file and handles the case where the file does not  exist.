@@ -1,0 +1,11 @@
+try:
+
+ with open(“allwin_geyrome.txt”,’r’) as file:
+
+ content=file.read()
+
+ print(content)
+
+except FileNotFoundError:
+
+ print(f”error: all gay the file does not found.”)
